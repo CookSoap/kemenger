@@ -1,0 +1,114 @@
+.contacts {
+}
+.container {
+}
+.contacts__inner {
+}
+.contacts__top {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+.conacts__cart {
+    margin-top: 100px;
+    max-width: 590px;
+    margin-top: 130px;
+    background: #018FA3;
+box-shadow: 0px 50px 50px -27px rgba(0, 0, 0, 0.1);
+border-radius: 30px;
+padding: 12px 41px 39px 41px;
+color: white;
+text-align: center;
+margin-bottom: 50px;
+}
+.contact__cart-title {
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+}
+.contact__cart-info {
+    text-align: left;
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+position: relative;
+
+&::before {
+    content: '';
+    background-image: url('../img/circle-12.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    z-index: -1;
+    bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+}
+.contact__cart-subinfo {
+    text-align: left;
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+margin-bottom: 12px;
+
+}
+.contact__img {
+    margin-left: 60px;
+    @media (max-width:700px) {
+        display: none;
+    }
+}
+.contacts__map {
+    margin: 0 auto;
+    margin-top: 57px;
+    margin-bottom: 87px;
+    max-width: 799px;
+    height: 539px;
+    border: 20px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: relative;
+    @media (max-width:870px) {
+        width: 600px;
+        overflow: hidden;
+    }
+    @media (max-width:612px) {
+        width: 400px;
+        overflow: hidden;
+    }
+    @media (max-width:400px) {
+        width: 300px;
+        overflow: hidden;
+    }
+    &::before {
+    background-image: url('../img/circle1.png');
+    content: '';
+    background-size: auto;
+    position: absolute;
+    z-index: -1;
+    bottom: 280px;
+    right: 660px;
+    width: 200px;
+    height: 200px;
+}
+    &::after {
+background-image: url('../img/circle2.png');
+content: '';
+background-size: auto;
+position: absolute;
+z-index: -1;
+top: 260px;
+left: 650px;
+width: 200px;
+height: 200px;
+}
+}

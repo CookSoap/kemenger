@@ -1,0 +1,204 @@
+.catalog {
+    background-color: #F6FAFF;
+    position: relative;
+}
+.container {
+}
+.catalog__inner {
+}
+.catalog__title {
+    padding-top: 63px;
+    font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 59px;
+
+
+
+color: #000000;
+text-align: center;
+}
+.swiper {
+}
+.catalog__carts {
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px 0px;
+    @media (max-width: 1362px) {
+        gap: 10px;
+    }
+}
+.catalog__cart {
+}
+.catalog-cart {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 387px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 52px 34px -27px rgba(225, 225, 225, 0.15);
+    border-radius: 30px;
+}
+.catalog-cart__inner {
+    border-radius: 30px;
+    padding: 26px 47px 60px 47px;
+    text-align: center;
+    @media (max-width:1233px) {
+        padding: 16px 17px 20px 17px;
+    }
+}
+
+.catalog-cart__title {
+    border-radius: 30px 30px 0px 0px;
+    padding: 25px;
+    text-align: center;
+    background-color: #018FA3;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    @media (max-width: 1362px) {
+        font-size: 20px;
+    }
+}
+
+.catalog-cart__price {
+    margin: 10px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    @media (max-width: 1362px) {
+        font-size: 38px;
+    }
+
+}
+.catalog-cart__about {
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+    @media (max-width: 1362px) {
+        font-size: 18px;
+    }
+}
+
+.catalog-cart__about-time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+    margin-bottom: 60px;
+    @media (max-width: 1362px) {
+        font-size: 18px;
+    }
+}
+
+.catalog-cart__skills {
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;  
+
+    color: #000000;
+    @media (max-width: 1362px) {
+        font-size: 18px;
+    }
+
+}
+.catalog__cart__more {
+    text-decoration: none;
+    margin-bottom: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 36px;
+    color: #018FA3;
+    cursor: pointer;
+    @media (max-width: 1362px) {
+        font-size: 18px;
+    }
+}
+.catalog-cart__hiden-skills {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 24px;
+    color: #000000;
+    @media (max-width: 1362px) {
+        font-size: 18px;
+    }
+
+}
+.catalog-cart__button {
+    border: none; outline: none;
+    padding: 19px 60px;
+    text-align: center;
+    background: #018FA3;
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    @media (max-width: 1362px) {
+        font-size: 18px;
+    }
+}
+
+.hiden {
+    display: none;
+}
+
+.swiper-button-prev {
+    font-size: 0px;
+    position: absolute;
+    top: 50%;
+    margin-left: 48px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%2316160a'%2F%3E%3C%2Fsvg%3E") !important;
+@media (max-width:1459px) {
+    margin-left: 4px;
+}  
+}
+  
+  .swiper-button-next {
+    font-size: 0px;
+    position: absolute;
+  margin-right: 48px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%2316160a'%2F%3E%3C%2Fsvg%3E") !important;
+    @media (max-width:1459px) {
+        margin-right: 4px;
+    }    
+}
+
+
+.catalog-cart__main-inner {
+    flex: 1 1 auto;
+}
+
+.swiper-slide {
+    @media (max-width: 1362px) {
+        justify-content: space-evenly;
+    }
+}

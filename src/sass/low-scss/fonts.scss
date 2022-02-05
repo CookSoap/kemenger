@@ -1,0 +1,36 @@
+  @font-face {
+    font-family: "FC"; 
+    src: url("/fonts/fightthis.woff2"); 
+    font-style: normal; 
+    font-weight: normal; 
+  }
+  
+  
+  @font-face {
+    font-family: "Commissioner";  
+    src: url("../fonts/Commissioner-Regular.woff"),
+    url("../fonts/Commissioner-Regular.woff2");
+    font-weight: 400;
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: "Commissioner";  
+    src: url("../fonts/Commissioner-Medium.woff"),
+    url("../fonts/Commissioner-Medium.woff2");
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: "Commissioner";  
+    src: url("../fonts/Commissioner-SemiBold.woff"),
+    url("../fonts/Commissioner-SemiBold.woff2");
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: "Commissioner";  
+    src: url("../fonts/Commissioner-Bold.woff"),
+    url("../fonts/Commissioner-Bold.woff2");
+    font-weight: 700;
+  }

@@ -1,0 +1,35 @@
+@import "low-scss/reset.scss";
+//шрифты 
+@import "low-scss/fonts.scss";
+// импорт header
+@import "low-scss/header.scss";
+// импорт about
+@import "low-scss/about.scss";
+// импорт directions
+@import "low-scss/directions.scss";
+// импорт catalog
+@import "low-scss/catalog.scss";
+// импорт certificates
+@import "low-scss/certificates.scss";
+// импорт our-reviews
+@import "low-scss/our-reviews.scss";
+// импортcontacts
+@import "low-scss/contacts.scss";
+// импорт footer
+@import "low-scss/footer.scss";
+// импорт swiper-bundle
+@import "low-scss/swiper-bundle.scss";
+
+body {
+    font-family: "Commissioner",sans-serif;
+}
+
+.container {
+    max-width: 1274px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.wrapper {
+    overflow: hidden;
+}
